@@ -23,17 +23,42 @@
     <div class="container mb-4">
       <form>
         <div class="mb-3">
-          <label for="exampleInputEmail1" class="form-label">Email address</label>
-          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-          <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+          <label for="disabledSelect" class="form-label">機種</label>
+          <select id="disabledSelect" class="form-select">
+            <option>PS4</option>
+            <option>switch</option>
+            <option>PC</option>
+            <option>Xbox</option>
+          </select>
         </div>
         <div class="mb-3">
-          <label for="exampleInputPassword1" class="form-label">Password</label>
-          <input type="password" class="form-control" id="exampleInputPassword1">
+          <label for="disabledSelect" class="form-label">目的</label>
+          <select id="disabledSelect" class="form-select">
+            <option>フレンド</option>
+            <option>ランク</option>
+            <option>カジュアル</option>
+            <option>練習</option>
+            <option>競技</option>
+            <option>その他</option>
+          </select>
         </div>
-        <div class="mb-3 form-check">
-          <input type="checkbox" class="form-check-input" id="exampleCheck1">
-          <label class="form-check-label" for="exampleCheck1">Check me out</label>
+        <div class="mb-3 row g-3 align-items-center">
+          <div class="col-auto">
+            <label for="disabledSelect" class="form-label">連絡手段</label>
+            <select id="disabledSelect" class="form-select">
+              <option>Discord</option>
+              <option>PSID</option>
+              <option>OriginID</option>
+            </select>
+          </div>
+          <div class="col-auto">
+            <label for="exampleInputPassword1" class="form-label"></label>
+            <input type="password" class="form-control" id="exampleInputPassword1">
+          </div>
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputPassword1" class="form-label">コメント</label>
+          <input type="password" class="form-control" id="exampleInputPassword1">
         </div>
         <button type="submit" class="btn btn-primary">Submit</button>
       </form>
