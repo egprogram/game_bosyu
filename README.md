@@ -17,7 +17,9 @@
     - 練習
     - 競技
     - その他
-
+- contacts
+  - id
+  - name, string, unique
   - コメント
     - text(50文字以内)
 
@@ -40,6 +42,12 @@
   - id
   - name, string, unique
 
+- contact_posts
+  - id
+  - contanct_id
+  - post_id
+  - content
+
 - posts
   - columns
     - id
@@ -48,5 +56,3 @@
     - machine_id, integer
     - destination_id, integer
     - comments, text
-    - friend_id, text
-
