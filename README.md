@@ -56,3 +56,12 @@
     - machine_id, integer
     - destination_id, integer
     - comments, text
+
+
+# 掲示板表示
+
+
+- 表示No      , 日付, コメント
+  機種名・目的      , 連絡先ID　　　
+
+ 
